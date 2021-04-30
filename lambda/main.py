@@ -5,8 +5,7 @@ from datetime import datetime, timezone, timedelta
 import threading
 import logging
 import re
-
-from botocore.vendored import requests
+import requests
 import boto3
 
 # semaphore limit of 5, picked this number arbitrarily
